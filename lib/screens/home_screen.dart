@@ -224,6 +224,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin{
                         setState(() {
                           c4=!c4;
                         });
+
                       }),
                       Text("Shrub Trimming & Pruning")
                     ],
