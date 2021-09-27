@@ -71,7 +71,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: MaterialButton(
                         onPressed: (){
                           print('clicked $number');
-             if(number=='8943522561'){
+             if(number=='1'){
                print('equal');
                Navigator.pushAndRemoveUntil(
                  context,

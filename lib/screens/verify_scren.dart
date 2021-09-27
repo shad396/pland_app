@@ -10,7 +10,7 @@ class VerifyScreen extends StatefulWidget {
 }
 
 class _VerifyScreenState extends State<VerifyScreen> {
-  final _pinPutController = TextEditingController();
+  final _pinPutController = TextEditingController(text: '3005s');
   final _pinPutFocusNode = FocusNode();
   @override
   Widget build(BuildContext context) {
